@@ -1,0 +1,14 @@
+✅ Which is More Suitable for an E-Commerce Platform?
+Binary Search is ideal for an optimized, large-scale platform:
+
+Much faster (especially as products scale into thousands or millions).
+
+Works best when products are pre-sorted (or you use sorted data structures like TreeMap or TreeSet).
+
+Linear Search is okay for:
+
+Small datasets,
+
+Very simple or one-time lookups,
+
+Or when products aren’t sorted and performance isn’t critical.

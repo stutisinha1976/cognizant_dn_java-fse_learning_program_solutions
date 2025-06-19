@@ -1,0 +1,17 @@
+1. Understand Asymptotic Notation
+✅ What is Big O Notation?
+Big O notation is like a mathematical way of describing how fast (or slow) your algorithm is, especially as the data grows.
+
+It doesn’t give you exact timings, but rather how performance changes with more data.
+
+Name	        Meaning	                    Example
+O(1)	    Constant time (fastest)	    Accessing an array element
+O(log n)	Logarithmic time	        Binary search
+O(n)	    Linear time	                    Linear search
+O(n log n)	Efficient sorting           (e.g., merge sort)	
+O(n²)	    Nested loops (slow!)	
+
+✅ Best, Average, and Worst-Case Scenarios for Search
+Search Type	        Best Case	                Average Case	       Worst Case
+Linear Search	       O(1) (1st match) 	    O(n/2) → O(n)            O(n)
+Binary Search	       O(1) (middle match)	    O(log n)	             O(log n)
