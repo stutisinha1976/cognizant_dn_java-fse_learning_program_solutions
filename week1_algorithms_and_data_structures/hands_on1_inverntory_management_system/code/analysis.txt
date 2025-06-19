@@ -1,0 +1,15 @@
+Operation	  Time Complexity	Explanation
+Add Product  	O(1) average	HashMap put() is constant time.
+Update Product	O(1) average	HashMap get() and update are constant time.
+Delete Product	O(1) average	HashMap remove() is constant time.
+Search Product	O(1) average	Efficient lookup by ID using get().
+
+Worst case (hash collision): O(n), but rare with good hash functions.
+
+Optimizations:
+
+Use LinkedHashMap if insertion order is needed.
+
+Use TreeMap for sorted order by productId (O(log n)).
+
+Implement indexing or filtering methods for category-based search.
