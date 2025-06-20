@@ -1,0 +1,68 @@
+
+🔹 Bubble Sort
+How it works: Imagine you’re bubbling up the biggest number to the end by comparing two neighbors and swapping them if needed. You keep doing this over and over.
+
+When it's fast: If the list is already sorted (best case), it’s quick.
+
+When it's slow: If the list is in reverse order, it does a lot of swaps (worst case).
+
+Speed:
+
+Best: O(n)
+
+Average/Worst: O(n²)
+
+Memory used: Very little (O(1))
+
+Keeps equal items in order? Yes
+
+Good for: Learning purposes or very small lists
+
+🔹 Insertion Sort
+How it works: Like sorting playing cards — take one at a time and insert it into the right position in a sorted part of the list.
+
+When it's fast: When the list is nearly sorted.
+
+When it's slow: When the list is in the wrong order.
+
+Speed:
+
+Best: O(n)
+
+Average/Worst: O(n²)
+
+Memory used: Very little (O(1))
+
+Keeps equal items in order? Yes
+
+Good for: Small lists or when you’re pretty sure the data is already close to sorted
+
+🔹 Quick Sort
+How it works: Pick a “pivot” item, split the list into items smaller and larger than it, and repeat this for each part.
+
+When it's fast: Usually! It’s one of the fastest sorting methods.
+
+When it's slow: If the pivot is always the smallest or largest value (rare if done right).
+
+Speed:
+
+Best/Average: O(n log n)
+
+Worst: O(n²)
+
+Memory used: A little (O(log n))
+
+Keeps equal items in order? No
+
+Good for: Fast sorting on big lists — used widely in the real world
+
+🔹 Merge Sort
+How it works: Divide the list in half, sort each half, then merge them back together in order.
+
+Speed: Always consistent — O(n log n) in all cases.
+
+Memory used: More than others (O(n)) because it uses extra space for merging.
+
+Keeps equal items in order? Yes
+
+Good for: Large data sets or when you must keep equal items in the same order (stable sorting). Great for linked lists.

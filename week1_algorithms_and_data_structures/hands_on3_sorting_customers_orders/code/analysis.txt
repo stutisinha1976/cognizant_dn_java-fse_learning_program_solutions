@@ -1,0 +1,11 @@
+Algorithm	    Best Case	Average Case	Worst Case	Space	    Stable
+Bubble Sort	    O(n)	        O(n²)	    O(n²)	    O(1)	    Yes
+Quick Sort	    O(n log n)	    O(n log n)	O(n²)	O   (log n)	    No
+
+📝 Why Quick Sort is Preferred Over Bubble Sort
+Efficiency: Quick Sort is significantly faster for large datasets due to O(n log n) average complexity.
+
+Practicality: Bubble Sort performs redundant comparisons and swaps, making it impractical for real applications.
+
+Scalability: Quick Sort scales better with input size.
+
