@@ -1,0 +1,22 @@
+Singly Linked List
+A data structure where each node has:
+
+data
+
+a reference (pointer) to the next node
+
+Traversal is only possible forward.
+
+Doubly Linked List
+Each node has:
+
+data
+
+a next pointer and a previous pointer.
+
+Allows both forward and backward traversal.
+
+Why Use Linked Lists?
+Arrays have fixed size and costly insertions/deletions.
+
+Linked lists are dynamic and efficient at insert/delete, especially in the middle or beginning.

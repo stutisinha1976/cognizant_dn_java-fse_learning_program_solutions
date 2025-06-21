@@ -1,0 +1,9 @@
+Operation	            Linear Search	    Binary Search
+Time Complexity	        O(n)	            O(log n)
+Requires Sorting	    No	                Yes
+
+Step 6: When to Use Each
+Use linear search when the dataset is small or unsorted.
+
+Use binary search when the dataset is large and already sorted, or can be sorted efficiently.
+

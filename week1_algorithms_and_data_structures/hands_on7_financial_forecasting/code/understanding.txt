@@ -1,0 +1,10 @@
+What is Recursion?
+Recursion is a programming technique where a method calls itself to solve a smaller part of the problem.
+
+It works well for problems that can be broken into similar subproblems (divide-and-conquer approach).
+
+Example Use Case:
+In financial forecasting, recursion can help calculate future values based on a formula like:
+
+
+FutureValue(n) = FutureValue(n-1) * (1 + growthRate)

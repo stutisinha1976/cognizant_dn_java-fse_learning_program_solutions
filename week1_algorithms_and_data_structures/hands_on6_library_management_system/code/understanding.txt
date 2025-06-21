@@ -1,0 +1,24 @@
+Step 1: Understand Search Algorithms
+Linear Search
+Definition: Iterates through each element in the list to find a match.
+
+Time Complexity:
+
+Best Case: O(1)
+
+Worst Case: O(n)
+
+Use Case: Useful for small or unsorted datasets.
+
+Advantage: Works on both sorted and unsorted data.
+
+Binary Search
+Definition: Efficient search algorithm that works by repeatedly dividing a sorted list in half.
+
+Time Complexity:
+
+Best/Average/Worst Case: O(log n)
+
+Use Case: Best for large, sorted datasets.
+
+Limitation: The list must be sorted beforehand.
