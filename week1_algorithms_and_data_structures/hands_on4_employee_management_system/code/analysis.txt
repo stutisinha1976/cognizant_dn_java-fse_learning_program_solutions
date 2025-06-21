@@ -1,0 +1,21 @@
+ Step 4: Analysis of Time Complexity
+Operation	            Time Complexity	                Explanation
+Add	                    O(1)	                Appending at the end of array
+Search	                O(n)	                Linear search (no indexing by ID)
+Traverse	            O(n)	                One pass through all records
+Delete	                O(n)	                Need to shift elements after deletion
+
+Limitations of Arrays
+Drawbacks:
+Fixed Size: You must know in advance how many employees you'll have.
+
+Costly Insert/Delete: Need to shift elements when deleting or inserting in between.
+
+No Flexibility: Cannot dynamically grow unless you manually resize the array.
+
+When to Use Arrays:
+When the number of records is known and small.
+
+When fast access by index is required.
+
+When memory layout matters (e.g., for performance optimization).

@@ -1,0 +1,15 @@
+1) How Arrays are Represented in Memory:
+An array is a fixed-size collection of elements stored in contiguous memory locations.
+
+Each element can be accessed in constant time using an index:
+
+address = base_address + index * size_of_each_element
+
+This layout allows fast access to any element.
+
+2) Advantages of Arrays:
+Fast random access – O(1) time to access any element by index.
+
+Simple structure – Easy to use and implement.
+
+Memory-efficient – No overhead for object references or pointers (compared to linked lists).
