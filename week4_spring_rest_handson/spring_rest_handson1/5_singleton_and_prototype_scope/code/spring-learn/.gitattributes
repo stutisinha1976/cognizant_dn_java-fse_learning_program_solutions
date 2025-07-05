@@ -1,0 +1,11 @@
+# Auto normalize all text files to LF in repo, CRLF in working copy on Windows
+* text=auto
+
+# Ensure XML files always use LF
+*.xml text eol=lf
+
+# Ensure Java files always use LF
+*.java text eol=lf
+
+# Keep properties files consistent too
+*.properties text eol=lf
